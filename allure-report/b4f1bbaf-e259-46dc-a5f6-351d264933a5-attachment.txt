@@ -1,0 +1,6 @@
+__init__.py                138 INFO     点击首页
+__init__.py                138 INFO     选择地区
+__init__.py                138 INFO     点击yz
+__init__.py                138 INFO     点击珠海
+__init__.py                138 INFO     点击确定
+__init__.py                138 INFO     拖动滚动条

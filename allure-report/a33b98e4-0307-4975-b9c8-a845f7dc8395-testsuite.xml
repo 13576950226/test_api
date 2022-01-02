@@ -1,0 +1,65 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1604213377176" stop="1604213390082">
+  <name>test_home_page</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1604213377176" status="passed" stop="1604213390082">
+      <name>TestHomepage.test_home_page</name>
+      <attachments>
+        <attachment source="e907e2c4-188d-44cf-b4c4-1899a4533f67-attachment.txt" title="Captured stderr call" type="text/plain"/>
+        <attachment source="b4f1bbaf-e259-46dc-a5f6-351d264933a5-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6588-MainThread"/>
+        <label name="host" value="DESKTOP-9JP3134"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1604213388481" status="passed" stop="1604213389871">
+          <name>定位珠海</name>
+          <title>定位珠海</title>
+          <attachments/>
+          <steps>
+            <step start="1604213388528" status="passed" stop="1604213389199">
+              <name>点击首页</name>
+              <title>点击首页</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1604213389199" status="passed" stop="1604213389340">
+              <name>点击定位按钮</name>
+              <title>点击定位按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1604213389340" status="passed" stop="1604213389590">
+              <name>点击yz区域</name>
+              <title>点击yz区域</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1604213389590" status="passed" stop="1604213389700">
+              <name>点击珠海</name>
+              <title>点击珠海</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1604213389700" status="passed" stop="1604213389794">
+              <name>点击确定</name>
+              <title>点击确定</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1604213389794" status="passed" stop="1604213389871">
+              <name>拖动滚动条</name>
+              <title>拖动滚动条</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

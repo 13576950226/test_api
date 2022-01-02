@@ -1,0 +1,4 @@
+login_script.py             54 INFO     输入用户名:13576950226
+login_script.py             56 INFO     输入密码:CH1d69958an+.
+login_script.py             59 INFO     点击登录
+login_script.py             43 INFO     登录失败

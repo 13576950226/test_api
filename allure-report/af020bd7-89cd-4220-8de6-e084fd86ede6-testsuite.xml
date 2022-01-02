@@ -1,0 +1,108 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1604213390082" stop="1604213402902">
+  <name>test_login</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1604213390082" status="failed" stop="1604213402902">
+      <name>Login.test_login_0_13576950226</name>
+      <failure>
+        <message>TypeError: exceptions must derive from BaseException</message>
+        <stack-trace>self = &lt;script.login_script.Login_script testMethod=runTest&gt;
+
+    @allure.step("是否登录成功")
+    def assert_login(self):
+        try:
+&gt;           assert self.fand_element(self.login_button_element).text == "登录"
+E           AssertionError
+
+script\login_script.py:40: AssertionError
+
+During handling of the above exception, another exception occurred:
+
+a = (&lt;test_login.Login testMethod=test_login_0_13576950226&gt;,)
+
+    @wraps(func)
+    def standalone_func(*a):
+&gt;       return func(*(a + p.args), **p.kwargs)
+
+venv\lib\site-packages\nose_parameterized\parameterized.py:392: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+case\test_login.py:15: in test_login
+    login.login_way(username, password)
+venv\lib\site-packages\allure\common.py:62: in impl
+    return func(*a, **kw)
+script\login_script.py:60: in login_way
+    self.assert_login()
+venv\lib\site-packages\allure\common.py:62: in impl
+    return func(*a, **kw)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;script.login_script.Login_script testMethod=runTest&gt;
+
+    @allure.step("是否登录成功")
+    def assert_login(self):
+        try:
+            assert self.fand_element(self.login_button_element).text == "登录"
+            print("登录成功")
+        except AssertionError:
+&gt;           raise logging.info("登录失败")
+E           TypeError: exceptions must derive from BaseException
+
+script\login_script.py:43: TypeError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="49fe1e50-7ba8-4ed4-ac68-008be267c0b7-attachment.txt" title="Captured stderr call" type="text/plain"/>
+        <attachment source="7a3476d7-4c82-4b36-9e10-4ad3b29d4dee-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6588-MainThread"/>
+        <label name="host" value="DESKTOP-9JP3134"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1604213401483" status="failed" stop="1604213402701">
+          <name>登录</name>
+          <title>登录</title>
+          <attachments/>
+          <steps>
+            <step start="1604213401514" status="passed" stop="1604213401866">
+              <name>点击已有账号去登录</name>
+              <title>点击已有账号去登录</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1604213401880" status="passed" stop="1604213402185">
+              <name>输入用户名</name>
+              <title>输入用户名</title>
+              <attachments>
+                <attachment source="0f509563-e819-4b4d-b3c1-3d4f21366644-attachment.txt" title="输入用户名:13576950226" type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+            <step start="1604213402185" status="passed" stop="1604213402263">
+              <name>输入密码</name>
+              <title>输入密码</title>
+              <attachments>
+                <attachment source="260bd13d-7369-4f66-a28e-c45444373b40-attachment.txt" title="输入密码CH1d69958an+." type="text/plain"/>
+              </attachments>
+              <steps/>
+            </step>
+            <step start="1604213402263" status="passed" stop="1604213402638">
+              <name>点击登录按钮</name>
+              <title>点击登录按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1604213402638" status="failed" stop="1604213402701">
+              <name>是否登录成功</name>
+              <title>是否登录成功</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
